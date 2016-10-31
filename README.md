@@ -35,3 +35,4 @@ A Curated List of Algorithms, with implementations in C++.
 - Z-Algorithm
 - Topological Sort with DFS
 - Dijsktra's Algorithm (Undirected)
+- Lazy Segment Tree
