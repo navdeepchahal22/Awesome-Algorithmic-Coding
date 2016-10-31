@@ -1,4 +1,4 @@
-//code for dft using fft 
+//Discrete Fourier Transformation using Fast Fourier Transformation
 #include <iostream>
 #include <complex>
 #include <cmath>
