@@ -1,3 +1,4 @@
+//code for Binary search in cpp
 #include <iostream>
 using namespace std;
 int Binary_Search(int arr[], int size, int desired)
