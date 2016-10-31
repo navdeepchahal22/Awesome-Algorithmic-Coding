@@ -10,3 +10,4 @@ Please feel invited and create a pull request onto this file (CONTRIBUTERS.md) t
 * [Priyansh2] (https://github.com/Priyansh2)
 * [rs175491]  (https://github.com/rs175491)
 * [Anirudh5] (https://github.com/Anirudh5)
+* [navdeepchahal22] (https://github.com/navdeepchahal22)
