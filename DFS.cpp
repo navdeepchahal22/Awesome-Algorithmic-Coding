@@ -1,25 +1,4 @@
-//saru95
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <cstring>
-#include <complex>
-#include <math.h>
-#include <utility>
-#include <cmath>
-#include <set>
-#include <vector>
-#include <map>
-#include <cctype>
-#include <queue>
-#include <stdio.h>
-#include <cstdio>
-#include <stack>
-#include <algorithm>
-#include <list>
-#include <ctime>
-#include <numeric>
-#include <memory.h>
+#include <bits/stdc++.h>
  
 #define all(a) (a).begin(),(a).end()
 #define gcd __gcd
