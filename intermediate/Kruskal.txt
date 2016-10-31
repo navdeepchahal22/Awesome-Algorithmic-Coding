@@ -1,0 +1,15 @@
+Description:=>
+
+Kruskal's algorithm is a minimum-spanning-tree algorithm which finds an edge of the least possible weight that connects any two trees in the forest. It is a greedy algorithm in graph theory as it finds a minimum spanning tree for a connected weighted graph adding increasing cost at each step.
+
+
+Steps:=>
+
+Step1: Sort all the edges in non-decreasing order of their weight.
+
+Step2: Pick the smallest edge. Check if it forms a cycle with the spanning tree 
+formed so far. If cycle is not formed, include this edge. Else, discard it.  
+
+Step3: Repeat step#2 until there are (V-1) edges in the spanning tree.
+
+Time Complexity:=> O(ElogV)
