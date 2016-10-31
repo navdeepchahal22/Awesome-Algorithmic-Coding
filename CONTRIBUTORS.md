@@ -2,6 +2,10 @@
 
 Please feel invited and create a pull request onto this file (CONTRIBUTERS.md) to be added as contributer.
 
+# About
+
+Please take care of the coding standards.
+
 ## Contributers
 
 * [kartikeypant] (https://github.com/kartikeypant) 
