@@ -9,10 +9,6 @@ typedef struct node{
 	long long int data;
 	struct node* next;
 }node;
-/*typedef struct node2{
-  long long int data;
-  struct node2* next;
-  }node2;*/
 struct stack
 {
 	long long int stk[MAXSIZE];
@@ -25,24 +21,7 @@ long long int  pop(void);
 void display(void);
 node *arr[1000005];
 node *arr2[1000005];
-/*void insert(int x,int y,node *head)
-{
-	node *temp;
-	//	current=arr[x];
-	temp=(struct node *)malloc(sizeof(struct node));
-	if(head==NULL)
-	{
-		temp->data=y;
-		temp->next=NULL;
-		*head=temp;
-	}
-	else
-	{		
-		temp->data=y;
-		temp->next=head;
-		head=temp;
-	}
-}*/
+
 int main()
 {	
 		for(i=1;i<=1000003;i++)
@@ -75,8 +54,6 @@ int main()
 		for(i=1;i<=k;i++)
 		{
 			scanf("%lld %lld",&x,&y);
-			//	insert(x,y,arr[x]);
-			//	insert(y,x,arr2[y]);
 
 			node *current=arr[x];
 			while(current->next!=NULL)
@@ -94,25 +71,12 @@ int main()
 			temp2->data=x;
 			temp2->next=NULL;
 			current2->next=temp2;
-			//while(current!=NULL)
-			//	current=current;
+			
 		}
 
-/*		for(i=1;i<=n;i++)
-		{
-			node *current=arr[i];
-			while(current!=NULL)
-			{	
-				printf("%lld ",current->data);
-				current=current->next;
-			}
-			printf("\n");
-		}*/
 		for(i=1;i<=n;i++)
 			if(visited[i]==0)
 				dfs(i);
-		//		display();
-		//		printf("ksrdyu\n");
 		while(s.top!=0)
 		{	
 			num=pop();
@@ -120,12 +84,12 @@ int main()
 			{
 				dfs2(num);
 				final_cost+=min;
-				//				printf("final cost:%lld\n",final_cost);
+				
 				final_count=((final_count)%m*(count%m))%m;
-				//				printf("final count:%lld\n",final_count);
+				
 				min=1000000000000000;
 				count=1;
-				//		printf("\n");
+				
 			}
 		}
 		printf("%lld %lld\n",final_cost,final_count);
@@ -149,18 +113,18 @@ void dfs(long long int num)
 void dfs2(long long int num)
 {
 	visited[num]=-1;
-	//	printf("%lld ",num);
+	
 	node *current2=arr2[num];
 	if(cost[num]<min)
 		min=cost[num];
-	//	printf("min in dfs2:%lld\n",min);
+	
 	while(current2->next!=NULL)
 	{
 		if(visited[current2->next->data]!=-1)
 		{
 			if(cost[current2->next->data]==min)
 				count++;
-			//			printf("count:%lld\n",count);
+		
 			dfs2(current2->next->data);
 		}
 		current2=current2->next;
