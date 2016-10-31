@@ -1,6 +1,6 @@
 # Contribute
 
-Please feel invited and create a pull request onto this file (CONTRIBUTE.md) to be added as contributer.
+Please feel invited and create a pull request onto this file (CONTRIBUTERS.md) to be added as contributer.
 
 ## Contributers
 
