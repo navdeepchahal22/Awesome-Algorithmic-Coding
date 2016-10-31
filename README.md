@@ -17,6 +17,7 @@ A Curated List of Algorithms, with implementations in C++.
 - Sieve of Atkins
 - Chinese Remainder Theorem
 - Euclid's Theorem
+- Heap Sort
 
 ### Intermediate
 - Radix Sort
