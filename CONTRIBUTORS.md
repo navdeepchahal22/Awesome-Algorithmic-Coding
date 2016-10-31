@@ -4,7 +4,8 @@ Please feel invited and create a pull request onto this file (CONTRIBUTERS.md) t
 
 ## Contributers
 
-* [kartikeypant] (https://github.com/kartikeypant)
+* [kartikeypant] (https://github.com/kartikeypant) 
+* [Kanak-garg] (https://github.com/Kanak-garg)
 * [hunterr24] (https://github.com/hunterr24)
 * [Priyansh2] (https://github.com/Priyansh2)
 * [rs175491]  (https://github.com/rs175491)
