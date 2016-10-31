@@ -25,7 +25,7 @@ A Curated List of Algorithms, with implementations in C++.
 - Ford Fulkerson Max Flow Algorithm
 - Fast Fourier Tranformation
 - Kruskal's Algorithm
-- Knuth-Morris-Pratt Algorithm
+- Knuth-Morris-Pratt(KMP) Algorithm
 - Kosaraju Algorithm
 - Quick Sort
 - Rabin-Karp Algorithm
